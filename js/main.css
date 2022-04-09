@@ -1,0 +1,14 @@
+.outer{
+    padding: 1rem;
+    position: relative;
+}
+
+.outer:hover::after{
+    content:"this is tool tip";
+    padding: 1rem;
+    display: block;
+    position: absolute;
+    top:200%;
+    transform: translateY(-100%);
+    background-color: aqua;
+}
